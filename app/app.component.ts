@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 
-import { Job } from './job';
-import { JobService } from './job.service';
+import { Job } from './models/job';
+import { JobService } from './services/job.service';
 
 @Component({
   selector: 'just-match-app',
